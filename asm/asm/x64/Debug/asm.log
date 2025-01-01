@@ -1,0 +1,10 @@
+﻿  readFile.c
+C:\Users\arbel\source\repos\asm\asm\readFile.c(36,7): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\arbel\source\repos\asm\asm\readFile.c(65,5): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\arbel\source\repos\asm\asm\readFile.c(61,24): warning C4101: 'next_code_line': unreferenced local variable
+C:\Users\arbel\source\repos\asm\asm\readFile.c(61,9): warning C4101: 'label_address': unreferenced local variable
+C:\Users\arbel\source\repos\asm\asm\readFile.c(144,6): warning C4101: 'word_position': unreferenced local variable
+C:\Users\arbel\source\repos\asm\asm\readFile.c(145,8): warning C4101: 'endptr': unreferenced local variable
+C:\Users\arbel\source\repos\asm\asm\readFile.c(278,9): warning C4013: 'isspace' undefined; assuming extern returning int
+C:\Users\arbel\source\repos\asm\asm\readFile.c(283,2): warning C4013: 'memmove' undefined; assuming extern returning int
+  asm.vcxproj -> C:\Users\arbel\source\repos\asm\x64\Debug\asm.exe
