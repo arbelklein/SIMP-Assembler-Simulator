@@ -22,7 +22,7 @@ The project needs to run on Windows.
 
 ### Assembler
 The assembler converts assembly programs into machine code for the SIMP processor. It takes an assembly source file as input:
-```Usage
+```sh
 asm.exe <program.asm> <imemin.txt> <dmemin.txt>
 ```
 
@@ -35,7 +35,7 @@ The simulator simulates the SIMP processor’s fetch-decode-execute cycle along 
 - `diskin.txt`: Disk contents.
 - `irq2in.txt`: External interrupt timings.
 
-```Usage
+```sh
 sim.exe <imemin.txt> <dmemin.txt> <diskin.txt> <irq2in.txt> <dmemout.txt> <regout.txt> <trace.txt> <hwregtrace.txt> <cycles.txt> <leds.txt> <display7seg.txt> <diskout.txt> <monitor.txt> <monitor.yuv>
 ```
 
